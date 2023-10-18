@@ -1,5 +1,5 @@
 # Utilisez une image légère d'un serveur web, par exemple nginx
-FROM nginx:latest
+FROM nginx
 
 # Copiez tous les fichiers HTML et CSS dans le répertoire approprié de l'image
 COPY *.html /usr/share/nginx/html/
